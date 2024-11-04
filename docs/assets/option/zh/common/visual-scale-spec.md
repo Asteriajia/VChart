@@ -189,3 +189,7 @@ const scale = {
 // scale('b') => 'blue'
 // scale('d') => 'red'
 ```
+
+#${prefix} paddingInner(number)
+
+设置Band Scale两端的外间距。如果配置了paddingInner，那么Band Scale的range会自动计算paddingInner。
